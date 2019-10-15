@@ -1,2 +1,2 @@
 # Mo-Me
-Mo&amp;Me is a local own small business that specializes in Decluttering.
+Mo&amp;Me is a local owned small business that specializes in Decluttering.
