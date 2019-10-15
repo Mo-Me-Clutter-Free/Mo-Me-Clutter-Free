@@ -1,12 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import LandingPage from "./LandingPage/LandingPage";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div> Test Test Test</div>
+        <div>
+          <LandingPage />
+          <Routes />
+        </div>
       </header>
     </div>
   );
