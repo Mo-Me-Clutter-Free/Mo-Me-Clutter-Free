@@ -8,7 +8,7 @@
 [build]
  base    = "moandme/"
  publish = "moandme/build/"
- command = "npm run start"
+ command = "npm run build"
 
 [[redirects]]
     from="/*"
