@@ -4,7 +4,6 @@ import CTA from "./CTA";
 import AreasYouAreNotAlone from "./AreasYouAreNotAlone";
 import WhyChooseUs from "./WhyChooseUs";
 import Footer from "./Footer";
-import "./LandingPage.scss";
 
 class LandingPage extends React.Component {
   render() {
