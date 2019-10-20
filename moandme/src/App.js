@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import LandingPage from "./LandingPage/LandingPage";
 import Routes from "./Routes";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <LandingPage />
           <Routes />
         </div>
       </header>
