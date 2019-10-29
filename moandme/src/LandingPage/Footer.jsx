@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-links">
-        <h3> Home </h3>
-        <h3> About Us </h3>
-        <h3> Our Services </h3>
-        <h3> Contact Us </h3>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/OurServices">Our Services</Link>
+        <Link to="/ContactUs">Contact Us</Link>
       </div>
       <div className="copyright">
         <h4> Copyright 2019 Mo&Me Clutter Free - All Rights Reserved.</h4>

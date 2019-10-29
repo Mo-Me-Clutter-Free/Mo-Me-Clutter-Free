@@ -5,17 +5,24 @@ const Nav = () => {
   return (
     <div className="Nav">
       <div className="Logo">
-        <h1>
-          {" "}
-          Mo & Me <span className="nav-clutter-free">Clutter Free</span>
-        </h1>
+        <Link to="/">
+          Mo & Me
+          <span className="nav-clutter-free">
+            <br />
+            <span className="c">C</span>lutter Free
+          </span>
+        </Link>
       </div>
-      <Link to="/about">About Us</Link>
-      <div>
-        <Link to="/OurServices">Our Services</Link>
-      </div>
-      <div>
-        <Link to="/ContactUs">Contact Us</Link>
+      <div className="nav-links">
+        <Link className="link" to="/about">
+          About Us
+        </Link>
+        <Link className="link" to="/OurServices">
+          Our Services
+        </Link>
+        <Link className="link" to="/ContactUs">
+          Contact Us
+        </Link>
       </div>
     </div>
   );

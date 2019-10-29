@@ -1,7 +1,36 @@
 a {
   text-decoration: none;
+  color: $Mega-Black;
 }
 
+.Nav {
+  display: flex;
+  flex-direction: row;
+  .Logo {
+    font-size: 4rem;
+    width: 300px;
+    font-family: "Marck Script", cursive;
+    text-align: center;
+
+    .nav-clutter-free {
+      color: $Turquoise;
+    }
+    .c {
+      font-family: "Courgette", cursive;
+    }
+  }
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .link {
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+  }
+}
 .CTA {
   display: flex;
   justify-content: space-around;
@@ -189,10 +218,11 @@ a {
       width: 400px;
       .shelf-img {
         width: 375px;
+        margin-left: 20px;
       }
       .container-1-p {
         font-family: "Roboto", sans-serif;
-        margin-top: 30px;
+        margin: 30px 0 0 20px;
         font-size: 2rem;
         text-align: center;
       }
@@ -206,7 +236,7 @@ a {
       .container-2-list {
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
-        margin: 10px 0 0 40px;
+        margin: 10px 0 0 50px;
       }
     }
     .choose-us-container-3 {
@@ -247,8 +277,11 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     padding-top: 30px;
+    text-decoration: none;
+    color: $Mega-Black;
   }
   .copyright {
     font-size: 2rem;
