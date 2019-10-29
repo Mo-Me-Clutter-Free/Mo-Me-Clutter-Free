@@ -56,3 +56,113 @@ a {
     }
   }
 }
+
+.areas-container {
+  .areas-header {
+    margin: 30px 0;
+    font-family: "Marck Script", cursive;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .area-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .btn-home {
+      font-family: "Courgette", cursive;
+      background-color: $Turquoise;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+    .btn-staging {
+      font-family: "Courgette", cursive;
+      background-color: $Wine-Red;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+    .btn-garage {
+      font-family: "Courgette", cursive;
+      background-color: $Baby-Blue;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+    .btn-storage {
+      font-family: "Courgette", cursive;
+      background-color: $Pretty-Pink;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+    .btn-workplace {
+      font-family: "Courgette", cursive;
+      background-color: $Tiffany;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+    .btn-organization {
+      font-family: "Courgette", cursive;
+      background-color: $Light-Pink;
+      border-radius: 5px;
+      font-size: 3.5rem;
+      width: 250px;
+      height: 80px;
+    }
+  }
+}
+
+.alone-container {
+  .not-alone-header {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Marck Script", cursive;
+    padding-top: 2%;
+  }
+  .many-others {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 60px 0 0 40px;
+    .many-others-header {
+      font-size: 4rem;
+      line-height: 1.5;
+      font-family: "Courgette", cursive;
+      color: $Turquoise;
+      margin-bottom: 10px;
+    }
+    .many-others-list {
+      font-size: 2.5rem;
+      line-height: 1.4;
+      font-family: "Roboto", sans-serif;
+    }
+    .call-header {
+      font-size: 3.8rem;
+      font-family: "Courgette", cursive;
+      color: $Turquoise;
+      margin: 130px 0 20px;
+    }
+    .call-p {
+      font-size: 2.5rem;
+      font-family: "Roboto", sans-serif;
+      line-height: 1.4;
+      width: 85%;
+    }
+  }
+  .clutter-img {
+    width: 36%;
+    height: 50%;
+    position: absolute;
+    border-radius: 6px;
+    left: 50%;
+    top: 82%;
+  }
+}
