@@ -194,6 +194,7 @@ a {
         font-family: "Roboto", sans-serif;
         margin-top: 30px;
         font-size: 2rem;
+        text-align: center;
       }
     }
     .choose-us-container-2 {
@@ -236,5 +237,22 @@ a {
         }
       }
     }
+  }
+}
+.footer-container {
+  background-color: $Baby-Blue;
+  border-radius: 4px 4px 0 0;
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+  .copyright {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 100px;
   }
 }
