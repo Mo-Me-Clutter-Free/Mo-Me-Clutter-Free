@@ -52,6 +52,10 @@ a {
         margin-top: 5%;
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
+        &:hover {
+          background-color: $Mega-Black;
+          color: $Tiffany;
+        }
       }
     }
   }
@@ -164,5 +168,73 @@ a {
     border-radius: 6px;
     left: 50%;
     top: 82%;
+  }
+}
+
+.why-choose-us-container {
+  width: 100%;
+  margin: 100px 0;
+
+  .why-choose-us-header {
+    font-family: "Marck Script", cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin: 30px 0;
+  }
+  .containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .choose-us-container-1 {
+      width: 400px;
+      .shelf-img {
+        width: 375px;
+      }
+      .container-1-p {
+        font-family: "Roboto", sans-serif;
+        margin-top: 30px;
+        font-size: 2rem;
+      }
+    }
+    .choose-us-container-2 {
+      width: 400px;
+      .quality-img {
+        width: 375px;
+        margin-bottom: 20px;
+      }
+      .container-2-list {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        margin: 10px 0 0 40px;
+      }
+    }
+    .choose-us-container-3 {
+      width: 400px;
+      .testimonials-img {
+        width: 330px;
+      }
+      .container-3-p {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        width: 250px;
+        margin: 10px 0 0 50px;
+        text-align: center;
+      }
+      .container-3-button {
+        width: 270px;
+        height: 50px;
+        margin-top: 30px;
+        border-radius: 25px;
+        margin-left: 10%;
+        background-color: $Mega-Black;
+        color: $Super-White;
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        &:hover {
+          background-color: $Tiffany;
+          color: $Mega-Black;
+        }
+      }
+    }
   }
 }
