@@ -1,0 +1,83 @@
+.meet-container {
+  .mo-and-me {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Marck Script", cursive;
+    margin-top: 30px;
+  }
+  .who-we-are-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 75px 40px;
+    .who-we-are {
+      font-size: 3rem;
+      font-family: "Marck Script", cursive;
+      text-align: center;
+      color: $Tiffany;
+    }
+    .who-we-are-inner-container {
+      display: flex;
+      flex-direction: column;
+
+      .who-we-are-p {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        width: 500px;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+  .jamie-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 75px 40px;
+    .jamie-inner-container {
+      display: flex;
+      flex-direction: column;
+
+      .jamie {
+        font-size: 3rem;
+        font-family: "Marck Script", cursive;
+        text-align: center;
+        color: $Tiffany;
+      }
+      .jamie-p {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        width: 500px;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+  .morgan-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 40px 75px 40px;
+    .morgan-inner-container {
+      display: flex;
+      flex-direction: column;
+
+      .morgan {
+        font-size: 3rem;
+        font-family: "Marck Script", cursive;
+        text-align: center;
+        color: $Tiffany;
+      }
+      .morgan-p {
+        font-family: "Roboto", sans-serif;
+        font-size: 2rem;
+        width: 500px;
+        margin-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+}
