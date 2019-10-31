@@ -17,7 +17,7 @@ const Routes = () => {
 
       <Route exact path="/OurServices" component={OurServices} />
 
-      <Route exact path="ContactUs" component={ContactUs} />
+      <Route exact path="/ContactUs" component={ContactUs} />
     </BrowserRouter>
   );
 };

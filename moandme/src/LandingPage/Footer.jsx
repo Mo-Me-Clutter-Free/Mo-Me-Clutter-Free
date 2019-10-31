@@ -10,7 +10,7 @@ const Footer = () => {
         <Link to="/ContactUs">Contact Us</Link>
       </div>
       <div className="copyright">
-        <h4> Copyright 2019 Mo&Me Clutter Free - All Rights Reserved.</h4>
+        <h4> Copyright 2019 Mo & Me Clutter Free - All Rights Reserved.</h4>
       </div>
     </div>
   );
