@@ -8,14 +8,13 @@ const ContactUs = () => {
     <div className="contact-us-container">
       <Nav />
       <h1 className="contact-us">
-        {" "}
         <span className="c">C</span>ontact Us
       </h1>
       <div className="contact-info-container">
         <h3 className="consultation"> Schedule a Consultation</h3>
         <p className="hourly-estimate">
           For hourly estimates, please contact us at your convenience. We look
-          forward to meeting you soon.{" "}
+          forward to meeting you soon.
         </p>
         <h2 className="mo-and-me-contact"> Mo & Me Clutter Free</h2>
         <p className="location"> Santa Clarita, California, Unites States</p>
