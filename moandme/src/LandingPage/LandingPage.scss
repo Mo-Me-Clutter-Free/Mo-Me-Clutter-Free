@@ -94,7 +94,7 @@ a {
   .areas-header {
     margin: 30px 0;
     font-family: "Marck Script", cursive;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
   .area-btns {
@@ -155,7 +155,7 @@ a {
 
 .alone-container {
   .not-alone-header {
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
     font-family: "Marck Script", cursive;
     padding-top: 2%;
@@ -164,7 +164,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 900px;
-    margin: 60px 0 0 40px;
+    margin: 60px 0 0 250px;
     .many-others-header {
       font-size: 4rem;
       line-height: 1.5;
@@ -195,8 +195,8 @@ a {
     height: 50%;
     position: absolute;
     border-radius: 6px;
-    left: 50%;
-    top: 82%;
+    left: 55%;
+    top: 90%;
   }
 }
 
@@ -206,14 +206,14 @@ a {
 
   .why-choose-us-header {
     font-family: "Marck Script", cursive;
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: center;
     margin: 30px 0;
   }
   .containers {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     .choose-us-container-1 {
       width: 400px;
       .shelf-img {
@@ -284,6 +284,7 @@ a {
     color: $Mega-Black;
   }
   .copyright {
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     text-align: center;
     margin-top: 100px;
