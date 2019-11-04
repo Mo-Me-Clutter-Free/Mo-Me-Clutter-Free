@@ -1,6 +1,7 @@
 # Mo-Me
 Mo&amp;Me is a local owned small business that specializes in Decluttering.
 <br/>
+<br/>
 I built this website for a mother and daughter team using React for the front end, SASS for styling, and Netlify for product deployment and form handling.
 <br/>
 <br/>
