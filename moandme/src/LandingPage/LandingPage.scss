@@ -81,6 +81,7 @@ a {
         margin-top: 5%;
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
+        border: 0;
         &:hover {
           background-color: $Mega-Black;
           color: $Tiffany;
@@ -109,6 +110,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
     .btn-staging {
       font-family: "Courgette", cursive;
@@ -117,6 +120,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
     .btn-garage {
       font-family: "Courgette", cursive;
@@ -125,6 +130,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
     .btn-storage {
       font-family: "Courgette", cursive;
@@ -133,6 +140,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
     .btn-workplace {
       font-family: "Courgette", cursive;
@@ -141,6 +150,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
     .btn-organization {
       font-family: "Courgette", cursive;
@@ -149,6 +160,8 @@ a {
       font-size: 3.5rem;
       width: 250px;
       height: 80px;
+      border: 0;
+      cursor: pointer;
     }
   }
 }
@@ -261,6 +274,7 @@ a {
         color: $Super-White;
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
+        border: 0;
         &:hover {
           background-color: $Tiffany;
           color: $Mega-Black;
