@@ -8,59 +8,107 @@
       font-family: "Courgette", cursive;
     }
   }
-  .contact-info-container {
+  .contact-container {
     display: flex;
-    flex-direction: column;
-    margin: 30px 0 50px 250px;
-    .consultation {
-      font-size: 4rem;
-      font-family: "Roboto", sans-serif;
-      margin: 30px 0;
-    }
-    .hourly-estimate {
-      font-size: 2rem;
-      font-family: "Roboto", sans-serif;
-      width: 550px;
-      margin-left: 20px;
-    }
-    .mo-and-me-contact {
-      font-size: 4rem;
-      font-family: "Courgette", cursive;
-      color: $Tiffany;
-      margin: 30px 0 10px 20px;
-    }
-    .location {
-      font-size: 3rem;
-      font-family: "Roboto", sans-serif;
-      margin: 30px 0 0 20px;
-    }
-    .contact-number {
-      font-size: 3rem;
-      font-family: "Roboto", sans-serif;
-      margin: 30px 0 50px 20px;
-    }
-    .follow-us {
-      font-size: 3rem;
-      font-family: "Roboto", sans-serif;
-    }
-    .facebook-container {
+    flex-direction: row;
+    justify-content: space-around;
+    .contact-info-container {
       display: flex;
-      flex-direction: row;
-      margin: 25px 0 0 35px;
-      .facebook-username {
-        font-size: 2.5rem;
+      flex-direction: column;
+      margin: 30px 0 50px 250px;
+      .consultation {
+        font-size: 4rem;
         font-family: "Roboto", sans-serif;
-        margin: 5px 0 0 25px;
+        margin: 30px 0;
+      }
+      .hourly-estimate {
+        font-size: 2rem;
+        font-family: "Roboto", sans-serif;
+        width: 550px;
+        margin-left: 20px;
+      }
+      .mo-and-me-contact {
+        font-size: 4rem;
+        font-family: "Courgette", cursive;
+        color: $Tiffany;
+        margin: 30px 0 10px 20px;
+      }
+      .location {
+        font-size: 3rem;
+        font-family: "Roboto", sans-serif;
+        margin: 30px 0 0 20px;
+      }
+      .contact-number {
+        font-size: 3rem;
+        font-family: "Roboto", sans-serif;
+        margin: 30px 0 50px 20px;
+      }
+      .follow-us {
+        font-size: 3rem;
+        font-family: "Roboto", sans-serif;
+      }
+      .facebook-container {
+        display: flex;
+        flex-direction: row;
+        margin: 25px 0 0 35px;
+        .facebook-username {
+          font-size: 2.5rem;
+          font-family: "Roboto", sans-serif;
+          margin: 5px 0 0 25px;
+        }
+      }
+      .instagram-container {
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0 0 35px;
+        .instagram-username {
+          font-size: 2.5rem;
+          font-family: "Roboto", sans-serif;
+          margin: 5px 0 0 25px;
+        }
       }
     }
-    .instagram-container {
-      display: flex;
-      flex-direction: row;
-      margin: 30px 0 0 35px;
-      .instagram-username {
-        font-size: 2.5rem;
-        font-family: "Roboto", sans-serif;
-        margin: 5px 0 0 25px;
+    .contact-form-container {
+      margin: 50px 250px 208px 0;
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        input {
+          margin: 1rem 0;
+          width: 500px;
+          height: 35px;
+          font-size: 2rem;
+          font-family: "Roboto", sans-serif;
+          border-radius: 5px;
+        }
+        label {
+          font-size: 2rem;
+          font-family: "Roboto", sans-serif;
+        }
+        textarea {
+          margin: 1rem 0;
+          width: 500px;
+          height: 250px;
+          border-radius: 5px;
+          font-size: 2rem;
+          font-family: "Roboto", sans-serif;
+        }
+        #submit-btn {
+          width: 270px;
+          height: 50px;
+          margin-top: 30px;
+          border-radius: 25px;
+          align-self: center;
+          background-color: $Mega-Black;
+          color: $Super-White;
+          font-family: "Roboto", sans-serif;
+          font-size: 2rem;
+          border: 0;
+          &:hover {
+            background-color: $Tiffany;
+            color: $Mega-Black;
+          }
+        }
       }
     }
   }
