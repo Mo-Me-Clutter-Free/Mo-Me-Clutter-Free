@@ -53,7 +53,7 @@ const ContactUs = () => {
             <label for="phone-number">Phone Number:</label>
             <input type="text" name="phone-number" id="phone-number" />
 
-            <label htmlFor="email">Email</label>
+            <label for="email">Email</label>
             <input type="text" name="email" id="email" />
 
             <label for="address">Address:</label>
