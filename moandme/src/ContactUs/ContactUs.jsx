@@ -34,22 +34,39 @@ const ContactUs = () => {
             <h2 className="instagram-username">@moandmeclutterfree</h2>
           </div>
         </div>
+
         <div className="contact-form-container">
-          <form className="contact-form" name="contact" method="post">
+          <form
+            className="contact-form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              Don’t fill this out: <input name="bot-field" />
+            </p>
             <label for="name">Name:</label>
             <input type="text" name="name" id="name" />
 
             <label for="phone-number">Phone Number:</label>
             <input type="text" name="phone-number" id="phone-number" />
 
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email" id="email" />
+
             <label for="address">Address:</label>
-            <input type="address" name="address" id="address" />
+            <input type="text" name="address" id="address" />
 
             <label for="message">Description of Needs:</label>
             <textarea type="message" name="message" id="message" />
 
-            <input id="submit-btn" type="submit" value="Submit" />
+            <ul className="actions">
+              <li>
+                <input type="submit" value="Send Message" id="submit-btn" />
+              </li>
+            </ul>
           </form>
         </div>
       </div>
