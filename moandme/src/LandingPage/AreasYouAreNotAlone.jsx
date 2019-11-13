@@ -18,7 +18,6 @@ const AreasYouAreNotAlone = () => {
           <h1 className="many-others-header">Are you like so many others?</h1>
           <ol>
             <li className="many-others-list">Overwhelmed with clutter?</li>
-            <li className="many-others-list">Selling your home?</li>
             <li className="many-others-list">Drowning in paperwork?</li>
             <li className="many-others-list">
               Fighting with a loved one about the clutter?{" "}
@@ -27,15 +26,17 @@ const AreasYouAreNotAlone = () => {
               Buying replacements for things you own but can't find?{" "}
             </li>
             <li className="many-others-list">Can’t park in the garage? </li>
+            <li className="many-others-list">Selling your home?</li>
           </ol>
           <h1 className="call-header">
             If so, it's time for you to call Mo & Me Clutter Free!
           </h1>
           <p className="call-p">
-            Our customers are: business professionals, parents, elderly, and
-            more! Clutter and disorganization affects a large portion of the
+            Our clients are: business professionals, parents, elderly, and more!
+            Clutter and disorganization affects a large portion of the
             population (7 out of 10 people). Many don't have the time or the
-            know-how to organize their spaces.
+            know-how to organize their spaces. Let us help you take that next
+            step to organize your life.
           </p>
         </div>
         <img className="clutter-img" src={Clutter} alt="Clutter" />

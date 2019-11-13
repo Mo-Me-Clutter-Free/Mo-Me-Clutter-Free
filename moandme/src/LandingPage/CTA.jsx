@@ -8,7 +8,7 @@ const CTA = () => {
           <div className="CTA-Content">
             <h1>
               {" "}
-              Don't Agonize. <br /> Organize!
+              Don't Agonize, <br /> Organize!
             </h1>
             <h2>
               Call Mo & Me <br /> Clutter Free!
