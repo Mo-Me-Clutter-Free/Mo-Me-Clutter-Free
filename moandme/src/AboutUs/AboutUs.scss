@@ -4,6 +4,9 @@
     text-align: center;
     font-family: "Marck Script", cursive;
     margin-top: 30px;
+    @media #{$tablet-small} {
+      font-size: 4rem;
+    }
   }
   .who-we-are-container {
     display: flex;
@@ -11,15 +14,34 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 100px 40px;
+    @media #{$tablet} {
+      flex-direction: column;
+    }
     .who-we-are-img {
       width: 20%;
       height: 20%;
+      @media #{$tablet} {
+        display: none;
+      }
     }
     .who-we-are {
       font-size: 5rem;
       font-family: "Marck Script", cursive;
       text-align: center;
       color: $Tiffany;
+      @media #{$tablet-small} {
+        font-size: 4rem;
+      }
+    }
+    .who-we-are-img2 {
+      display: none;
+      @media #{$tablet} {
+        display: flex;
+        align-self: center;
+        height: 65%;
+        width: 65%;
+        margin-top: 25px;
+      }
     }
     .who-we-are-inner-container {
       display: flex;
@@ -31,6 +53,16 @@
         width: 550px;
         margin-top: 30px;
         text-align: center;
+        @media #{$tablet-small} {
+          font-size: 2rem;
+          width: 500px;
+        }
+        @media #{$mobile} {
+          width: 390px;
+        }
+        @media #{$mobile-small} {
+          width: 350px;
+        }
       }
     }
   }
@@ -40,6 +72,9 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 100px 40px;
+    @media #{$tablet} {
+      flex-direction: column;
+    }
     .jamie-inner-container {
       display: flex;
       flex-direction: column;
@@ -50,17 +85,40 @@
         text-align: center;
         color: $Tiffany;
       }
+      .jamie-img2 {
+        display: none;
+        @media #{$tablet} {
+          display: flex;
+          align-self: center;
+          height: 65%;
+          width: 65%;
+          margin-top: 25px;
+        }
+      }
       .jamie-p {
         font-family: "Roboto", sans-serif;
         font-size: 3rem;
         width: 600px;
         margin-top: 30px;
         text-align: center;
+        @media #{$tablet-small} {
+          font-size: 2rem;
+          width: 500px;
+        }
+        @media #{$mobile} {
+          width: 390px;
+        }
+        @media #{$mobile-small} {
+          width: 350px;
+        }
       }
     }
     .jamie-img {
       width: 20%;
       height: 20%;
+      @media #{$tablet} {
+        display: none;
+      }
     }
   }
   .morgan-container {
@@ -69,9 +127,15 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 0 40px 100px 40px;
+    @media #{$tablet} {
+      flex-direction: column;
+    }
     .morgan-img {
-      width: 20%;
-      height: 20%;
+      width: 25%;
+      height: 25%;
+      @media #{$tablet} {
+        display: none;
+      }
     }
     .morgan-inner-container {
       display: flex;
@@ -82,12 +146,32 @@
         text-align: center;
         color: $Tiffany;
       }
+      .morgan-img2 {
+        display: none;
+        @media #{$tablet} {
+          display: flex;
+          align-self: center;
+          height: 65%;
+          width: 65%;
+          margin-top: 25px;
+        }
+      }
       .morgan-p {
         font-family: "Roboto", sans-serif;
         font-size: 3rem;
         width: 550px;
         margin-top: 30px;
         text-align: center;
+        @media #{$tablet-small} {
+          font-size: 2rem;
+          width: 500px;
+        }
+        @media #{$mobile} {
+          width: 390px;
+        }
+        @media #{$mobile-small} {
+          width: 350px;
+        }
       }
     }
   }

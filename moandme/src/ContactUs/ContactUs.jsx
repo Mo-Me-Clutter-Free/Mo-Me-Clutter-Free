@@ -7,12 +7,9 @@ const ContactUs = () => {
   return (
     <div className="contact-us-container">
       <Nav />
-      <h1 className="contact-us">
-        <span className="c">C</span>ontact Us
-      </h1>
+      <h1 className="contact-us">Schedule a Session</h1>
       <div className="contact-container">
         <div className="contact-info-container">
-          <h3 className="consultation"> Schedule a Session</h3>
           <p className="hourly-estimate">
             For hourly estimates, please contact us at your convenience. <br />{" "}
             We look forward to meeting you soon.
