@@ -12,13 +12,13 @@ const ContactUs = () => {
       </h1>
       <div className="contact-container">
         <div className="contact-info-container">
-          <h3 className="consultation"> Schedule a Consultation</h3>
+          <h3 className="consultation"> Schedule a Session</h3>
           <p className="hourly-estimate">
-            For hourly estimates, please contact us at your convenience. We look
-            forward to meeting you soon.
+            For hourly estimates, please contact us at your convenience. <br />{" "}
+            We look forward to meeting you soon.
           </p>
           <h2 className="mo-and-me-contact"> Mo & Me Clutter Free</h2>
-          <p className="location"> Santa Clarita, California, Unites States</p>
+          <p className="location"> Santa Clarita, California, United States</p>
           <h3 className="contact-number">970.218.5691</h3>
           <h3 className="follow-us"> Follow us on social media!</h3>
           <div className="facebook-container">
@@ -53,7 +53,7 @@ const ContactUs = () => {
             <label for="phone-number">Phone Number:</label>
             <input type="text" name="phone-number" id="phone-number" />
 
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="text" name="email" id="email" />
 
             <label for="address">Address:</label>

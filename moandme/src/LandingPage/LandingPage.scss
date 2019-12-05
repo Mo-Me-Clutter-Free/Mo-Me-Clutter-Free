@@ -6,6 +6,10 @@ a {
 .Nav {
   display: flex;
   flex-direction: row;
+  @media #{$tablet-small} {
+    flex-direction: column;
+  }
+
   .Logo {
     font-size: 4rem;
     width: 300px;
@@ -18,28 +22,57 @@ a {
     .c {
       font-family: "Courgette", cursive;
     }
+    @media #{$tablet-small} {
+      align-self: center;
+      padding: 20px 0 0 0;
+      font-size: 5rem;
+    }
   }
   .nav-links {
     display: flex;
     justify-content: flex-end;
     font-size: 2rem;
     width: 100%;
-    padding-top: 30px;
+    margin-top: 15px;
+    padding: 15px 0 15px 0;
+    @media #{$tablet-small} {
+      flex-direction: column;
+      align-items: center;
+      font-size: 3rem;
+    }
   }
   .link {
     margin-right: 50px;
     font-family: "Roboto", sans-serif;
+    &:hover {
+      color: $Turquoise;
+    }
+    @media #{$tablet-small} {
+      margin: 15px 0 0 0;
+      border-top: 1px solid lightgray;
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+    }
   }
 }
 .CTA {
   display: flex;
   justify-content: space-around;
   background-image: url("../imgs/CleanHouse.jfif");
-  height: 700px;
+  height: 800px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  // @media #{$desktop-smaller} {
+  //   height: 550px;
+  // }
+  @media #{$tablet} {
+    background-size: 1220px 800px;
+  }
+  @media #{$tablet-small} {
+    background-size: 900px 600px;
+  }
   .Real-CTA {
     display: flex;
     flex-direction: column;
@@ -52,14 +85,47 @@ a {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     clip-path: circle(18.5%);
+
+    @media #{$desktop-large} {
+      clip-path: circle(20.5%);
+    }
+    @media #{$desktop-small} {
+      clip-path: circle(22.5%);
+    }
+    @media #{$desktop-smaller} {
+      clip-path: circle(23.5%);
+    }
+    @media #{$tablet} {
+      clip-path: circle(28.5%);
+    }
+    @media #{$tablet-small} {
+      clip-path: circle(36.5%);
+    }
+    @media #{$mobile} {
+    }
     .CTA-Content {
       margin: auto;
-      h1 {
+      .agonize {
         margin-bottom: 10px;
         font-size: 6rem;
         text-align: center;
         font-family: "Marck Script", cursive;
         color: white;
+        @media #{$desktop-large} {
+          font-size: 5.5rem;
+        }
+        @media #{$desktop-small} {
+          font-size: 5rem;
+        }
+        @media #{$desktop-smaller} {
+          font-size: 4.5rem;
+        }
+        @media #{$tablet} {
+          font-size: 4.5rem;
+        }
+        @media #{$tablet-small} {
+          font-size: 4rem;
+        }
       }
       h2 {
         margin-bottom: 10px;
@@ -67,15 +133,24 @@ a {
         text-align: center;
         font-family: "Marck Script", cursive;
         color: #f0ea4c;
+        @media #{$tablet} {
+          font-size: 4rem;
+        }
+        @media #{$tablet-small} {
+          font-size: 3.5rem;
+        }
       }
       h4 {
         font-size: 2.5rem;
         color: #d9d8d8;
         font-family: "Roboto", sans-serif;
+        @media #{$tablet-small} {
+          font-size: 2rem;
+        }
       }
 
       button {
-        width: 320px;
+        width: 90%;
         height: 50px;
         border-radius: 25px;
         margin-top: 5%;
@@ -86,12 +161,25 @@ a {
           background-color: $Mega-Black;
           color: $Tiffany;
         }
+        // @media #{$desktop-large} {
+        //   width: 220px;
+        // }
+        @media #{$desktop-smaller} {
+        }
+        @media #{$tablet} {
+          width: 80%;
+          font-size: 1.8rem;
+        }
       }
     }
   }
 }
 
 .areas-container {
+  @media #{$tablet} {
+    display: flex;
+    flex-direction: column;
+  }
   .areas-header {
     margin: 30px 0;
     font-family: "Marck Script", cursive;
@@ -102,66 +190,65 @@ a {
     display: flex;
     justify-content: space-around;
     width: 100%;
-
+    @media #{$tablet} {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .btn-home {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Turquoise;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
     .btn-staging {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Wine-Red;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
     .btn-garage {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Baby-Blue;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
     .btn-storage {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Pretty-Pink;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
     .btn-workplace {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Tiffany;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
     .btn-organization {
-      font-family: "Courgette", cursive;
+      @include btns;
       background-color: $Light-Pink;
-      border-radius: 5px;
-      font-size: 3.5rem;
-      width: 250px;
-      height: 80px;
-      border: 0;
-      cursor: pointer;
+      @media #{$tablet} {
+        margin: 20px 0 10px 0;
+        width: 60%;
+        font-size: 3rem;
+      }
     }
   }
 }
@@ -171,64 +258,82 @@ a {
     font-size: 4.5rem;
     text-align: center;
     font-family: "Marck Script", cursive;
-    padding-top: 2%;
+
+    padding-top: 5%;
   }
-  .many-others {
+  .alone-inner-container {
     display: flex;
-    flex-direction: column;
-    width: 900px;
-    margin: 60px 0 0 250px;
-    .many-others-header {
-      font-size: 4rem;
-      line-height: 1.5;
-      font-family: "Courgette", cursive;
-      color: $Turquoise;
-      margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .many-others {
+      display: flex;
+      flex-direction: column;
+      width: 900px;
+      margin: 60px 0 0 70px;
+      .many-others-header {
+        font-size: 4rem;
+        line-height: 1.5;
+        font-family: "Courgette", cursive;
+        color: $Turquoise;
+        margin-bottom: 10px;
+      }
+      .many-others-list {
+        font-size: 2.5rem;
+        line-height: 1.4;
+        font-family: "Roboto", sans-serif;
+      }
+      .call-header {
+        font-size: 3.8rem;
+        font-family: "Courgette", cursive;
+        color: $Turquoise;
+        margin: 130px 0 20px;
+      }
+      .call-p {
+        font-size: 2.5rem;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.4;
+        width: 85%;
+      }
     }
-    .many-others-list {
-      font-size: 2.5rem;
-      line-height: 1.4;
-      font-family: "Roboto", sans-serif;
+    .clutter-img {
+      width: 36%;
+      height: 50%;
+      border-radius: 6px;
     }
-    .call-header {
-      font-size: 3.8rem;
-      font-family: "Courgette", cursive;
-      color: $Turquoise;
-      margin: 130px 0 20px;
-    }
-    .call-p {
-      font-size: 2.5rem;
-      font-family: "Roboto", sans-serif;
-      line-height: 1.4;
-      width: 85%;
-    }
-  }
-  .clutter-img {
-    width: 36%;
-    height: 50%;
-    position: absolute;
-    border-radius: 6px;
-    left: 55%;
-    top: 90%;
   }
 }
 
 .why-choose-us-container {
   width: 100%;
   margin: 100px 0;
+  @media #{$tablet} {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .why-choose-us-header {
     font-family: "Marck Script", cursive;
     font-size: 4.5rem;
-    text-align: center;
+    width: 100%;
     margin: 30px 0;
+    height: 65px;
   }
   .containers {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    @media #{$tablet} {
+      flex-direction: column;
+      align-items: center;
+    }
     .choose-us-container-1 {
       width: 400px;
+      @media #{$tablet} {
+        margin: 30px 0 35px 0;
+      }
       .shelf-img {
         width: 375px;
         margin-left: 20px;
@@ -242,6 +347,9 @@ a {
     }
     .choose-us-container-2 {
       width: 400px;
+      @media #{$tablet} {
+        margin: 30px 0 35px 0;
+      }
       .quality-img {
         width: 375px;
         margin-bottom: 20px;
@@ -254,8 +362,11 @@ a {
     }
     .choose-us-container-3 {
       width: 400px;
+      @media #{$tablet} {
+        margin: 30px 0 35px 30px;
+      }
       .testimonials-img {
-        width: 330px;
+        width: 350px;
       }
       .container-3-p {
         font-family: "Roboto", sans-serif;
@@ -275,6 +386,9 @@ a {
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
         border: 0;
+        @media #{$tablet} {
+          margin: 30px 0 0 11%;
+        }
         &:hover {
           background-color: $Tiffany;
           color: $Mega-Black;
@@ -296,11 +410,40 @@ a {
     padding-top: 30px;
     text-decoration: none;
     color: $Mega-Black;
+    @media #{$tablet-small} {
+      display: flex;
+      flex-direction: column;
+    }
+    .link {
+      margin-right: 50px;
+      font-family: "Roboto", sans-serif;
+      &:hover {
+        color: $Super-White;
+      }
+      @media #{$tablet-small} {
+        margin: 10px 0 10px 0;
+
+        text-align: center;
+        padding-top: 20px;
+      }
+    }
   }
   .copyright {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
+  }
+  .Creator {
+    margin-top: 90px;
+    font-size: 1.9rem;
+    font-family: "Roboto", sans-serif;
+    .Alexander {
+      text-align: center;
+      .portfolio {
+        text-decoration: none;
+        margin: 0 20px 0 10px;
+      }
+    }
   }
 }

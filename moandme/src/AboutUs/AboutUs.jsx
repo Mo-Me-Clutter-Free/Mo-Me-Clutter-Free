@@ -11,7 +11,7 @@ const AboutUs = () => {
       <Nav />
       <h1 className="mo-and-me">Meet Mo & Me</h1>
       <div className="who-we-are-container">
-        <img src={MoandMe} alt="moandme" />
+        <img className="who-we-are-img" src={MoandMe} alt="moandme" />
         <div className="who-we-are-inner-container">
           <h2 className="who-we-are">Who We Are</h2>
           <p className="who-we-are-p">

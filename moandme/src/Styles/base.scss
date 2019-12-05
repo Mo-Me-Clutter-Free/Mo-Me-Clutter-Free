@@ -1,8 +1,10 @@
 @import "reset";
-@import "variables";
+@import "_variables";
+@import "_mixins";
 @import "global";
-@import "mixins";
 
 @import "../LandingPage/LandingPage.scss";
 @import "../AboutUs/AboutUs.scss";
 @import "../ContactUs/ContactUs.scss";
+@import "../OurServices/Carousel.scss";
+@import "../OurServices/OurServices.scss";
