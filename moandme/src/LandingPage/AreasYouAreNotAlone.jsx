@@ -19,6 +19,7 @@ const AreasYouAreNotAlone = () => {
         </div>
         <div className="alone-inner-container">
           <div className="many-others">
+            <img className="clutter-img2" src={Clutter} alt="Clutter" />
             <h2 className="many-others-header">Are you like so many others?</h2>
             <ol>
               <li className="many-others-list">Overwhelmed with clutter?</li>

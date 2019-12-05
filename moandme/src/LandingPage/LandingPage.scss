@@ -75,6 +75,10 @@ a {
   @media #{$tablet-small} {
     background-size: 900px 600px;
   }
+  @media #{$mobile} {
+    background-size: 550px 400px;
+    height: 450px;
+  }
   .Real-CTA {
     display: flex;
     flex-direction: column;
@@ -101,9 +105,13 @@ a {
       clip-path: circle(28.5%);
     }
     @media #{$tablet-small} {
-      clip-path: circle(36.5%);
+      clip-path: circle(28.5%);
     }
     @media #{$mobile} {
+      clip-path: circle(42.5%);
+    }
+    @media #{$mobile-small} {
+      clip-path: circle(44.5%);
     }
     .CTA-Content {
       margin: auto;
@@ -140,6 +148,9 @@ a {
         }
         @media #{$tablet-small} {
           font-size: 3.5rem;
+        }
+        @media #{$mobile-small} {
+          font-size: 2.9rem;
         }
       }
       h4 {
@@ -187,6 +198,9 @@ a {
     font-family: "Marck Script", cursive;
     font-size: 5rem;
     text-align: center;
+    @media #{$mobile} {
+      font-size: 2.7rem;
+    }
   }
   .area-btns {
     display: flex;
@@ -206,6 +220,10 @@ a {
         width: 60%;
         font-size: 3rem;
       }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
+      }
     }
     .btn-staging {
       @include btns;
@@ -214,6 +232,10 @@ a {
         margin: 20px 0 10px 0;
         width: 60%;
         font-size: 3rem;
+      }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
       }
     }
     .btn-garage {
@@ -224,6 +246,10 @@ a {
         width: 60%;
         font-size: 3rem;
       }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
+      }
     }
     .btn-storage {
       @include btns;
@@ -232,6 +258,10 @@ a {
         margin: 20px 0 10px 0;
         width: 60%;
         font-size: 3rem;
+      }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
       }
     }
     .btn-workplace {
@@ -242,6 +272,10 @@ a {
         width: 60%;
         font-size: 3rem;
       }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
+      }
     }
     .btn-organization {
       @include btns;
@@ -250,6 +284,10 @@ a {
         margin: 20px 0 10px 0;
         width: 60%;
         font-size: 3rem;
+      }
+      @media #{$mobile} {
+        font-size: 2.5rem;
+        width: 80%;
       }
     }
   }
@@ -260,8 +298,11 @@ a {
     font-size: 4.5rem;
     text-align: center;
     font-family: "Marck Script", cursive;
-
-    padding-top: 5%;
+    padding-top: 6%;
+    @media #{$mobile} {
+      font-size: 3rem;
+      padding-top: 9%;
+    }
   }
   .alone-inner-container {
     display: flex;
@@ -271,37 +312,80 @@ a {
     .many-others {
       display: flex;
       flex-direction: column;
-      width: 900px;
+      width: 50%;
       margin: 60px 0 0 70px;
+      @media #{$tablet} {
+        margin: 60px 0 0 50px;
+        width: 80%;
+      }
+      @media #{$mobile} {
+        margin: 60px 0 0 0px;
+      }
+      .clutter-img2 {
+        display: none;
+        @media #{$tablet} {
+          display: flex;
+          width: 90%;
+          margin: 20px 0 40px 0;
+          border-radius: 6px;
+        }
+      }
       .many-others-header {
         font-size: 4rem;
         line-height: 1.5;
         font-family: "Courgette", cursive;
         color: $Turquoise;
         margin-bottom: 10px;
+        @media #{$tablet} {
+          font-size: 3.5rem;
+        }
+        @media #{$mobile} {
+          font-size: 3.3rem;
+          text-align: center;
+        }
       }
       .many-others-list {
         font-size: 2.5rem;
         line-height: 1.4;
         font-family: "Roboto", sans-serif;
+        @media #{$mobile} {
+          font-size: 2rem;
+          width: 100%;
+          margin-left: 15px;
+        }
       }
       .call-header {
         font-size: 3.8rem;
         font-family: "Courgette", cursive;
         color: $Turquoise;
         margin: 130px 0 20px;
+        @media #{$tablet} {
+          font-size: 3.2rem;
+        }
+        @media #{$mobile} {
+          font-size: 3rem;
+          text-align: center;
+        }
       }
       .call-p {
         font-size: 2.5rem;
         font-family: "Roboto", sans-serif;
         line-height: 1.4;
         width: 85%;
+        @media #{$mobile} {
+          font-size: 2rem;
+          text-align: center;
+          width: 95%;
+        }
       }
     }
     .clutter-img {
       width: 36%;
       height: 50%;
       border-radius: 6px;
+      @media #{$tablet} {
+        display: none;
+      }
     }
   }
 }
@@ -315,13 +399,18 @@ a {
     flex-direction: column;
     align-items: center;
   }
-
+  @media #{$mobile} {
+    margin: 75px 0;
+  }
   .why-choose-us-header {
     font-family: "Marck Script", cursive;
     font-size: 4.5rem;
     width: 100%;
     margin: 30px 0;
     height: 65px;
+    @media #{$mobile} {
+      font-size: 3rem;
+    }
   }
   .containers {
     display: flex;
@@ -339,12 +428,21 @@ a {
       .shelf-img {
         width: 375px;
         margin-left: 20px;
+        @media #{$mobile} {
+          width: 350px;
+          margin-left: 25px;
+        }
       }
       .container-1-p {
         font-family: "Roboto", sans-serif;
         margin: 30px 0 0 20px;
         font-size: 2rem;
         text-align: center;
+        @media #{$mobile} {
+          font-size: 1.8rem;
+          width: 85%;
+          margin: 30px 0 0 25px;
+        }
       }
     }
     .choose-us-container-2 {
@@ -355,6 +453,10 @@ a {
       .quality-img {
         width: 375px;
         margin-bottom: 20px;
+        @media #{$mobile} {
+          width: 350px;
+          margin-left: 25px;
+        }
       }
       .container-2-list {
         font-family: "Roboto", sans-serif;
@@ -435,7 +537,7 @@ a {
     text-align: center;
     margin-top: 10px;
     @media #{$mobile} {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
   .Creator {
