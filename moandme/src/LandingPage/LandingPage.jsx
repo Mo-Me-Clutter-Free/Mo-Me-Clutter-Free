@@ -9,11 +9,13 @@ class LandingPage extends React.Component {
   render() {
     return (
       <body>
-        <Nav />
-        <CTA />
-        <AreasYouAreNotAlone />
-        <WhyChooseUs />
-        <Footer />
+        <div>
+          <Nav />
+          <CTA />
+          <AreasYouAreNotAlone />
+          <WhyChooseUs />
+          <Footer />
+        </div>
       </body>
     );
   }

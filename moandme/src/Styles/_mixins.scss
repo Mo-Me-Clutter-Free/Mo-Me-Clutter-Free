@@ -1,0 +1,14 @@
+@mixin btns {
+  font-family: "Courgette", cursive;
+  border-radius: 5px;
+  font-size: 3.5rem;
+  width: 250px;
+  height: 80px;
+  border: 0;
+  cursor: pointer;
+  @media #{$desktop-small} {
+    font-size: 2.5rem;
+    width: 170px;
+    height: 80px;
+  }
+}

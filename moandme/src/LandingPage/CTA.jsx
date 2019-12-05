@@ -6,10 +6,9 @@ const CTA = () => {
       <section className="CTA">
         <div className="Real-CTA">
           <div className="CTA-Content">
-            <h1>
-              {" "}
+            <h2 className="agonize">
               Don't Agonize, <br /> Organize!
-            </h1>
+            </h2>
             <h2>
               Call Mo & Me <br /> Clutter Free!
             </h2>

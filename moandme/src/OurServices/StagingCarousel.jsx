@@ -1,25 +1,31 @@
 import React, { Component } from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import ClosetOrg1 from "../imgs/ClosetOrg1.jpg";
-import ClosetOrg2 from "../imgs/ClosetOrg2.jpg";
+import FamilyRoomStaging from "../imgs/Carousels/FamilyRoomStaging.jpg";
+import KitchenStaging from "../imgs/Carousels/KitchenStaging.jpg";
+import OfficeStaging from "../imgs/Carousels/OfficeStaging.jpg";
+import BathroomStaging from "../imgs/Carousels/BathroomStaging.jpg";
 
 export default class DemoCarousel extends Component {
   render() {
     return (
       <Carousel className="carousel">
         <div className="carousel-test">
-          <img src={ClosetOrg2} alt="Org1" />
-          <p className="legend">Legend 1</p>
+          <img src={FamilyRoomStaging} alt="Org1" />
+          <p className="legend">Home Staging</p>
         </div>
-        <div>
-          <img src={ClosetOrg1} alt="Org1" />
-          <p className="legend">Legend 2</p>
+        <div className="carousel-test">
+          <img src={KitchenStaging} alt="Org1" />
+          <p className="legend">Kitchen Staging!</p>
         </div>
-        <div>
-          <img src={ClosetOrg1} alt="Org1" />
-          <p className="legend">Legend 3</p>
+        <div className="carousel-test">
+          <img src={OfficeStaging} alt="Org1" />
+          <p className="legend">Office Staging</p>
+        </div>
+        <div className="carousel-test">
+          <img src={BathroomStaging} alt="Org1" />
+          <p className="legend">Bathroom Staging</p>
         </div>
       </Carousel>
     );

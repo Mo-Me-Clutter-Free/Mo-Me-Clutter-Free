@@ -12,45 +12,67 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    @media #{$tablet} {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .contact-info-container {
       display: flex;
       flex-direction: column;
       margin: 30px 0 50px 250px;
+      @media #{$tablet} {
+        margin: auto;
+        text-align: center;
+      }
       .consultation {
         font-size: 4rem;
         font-family: "Roboto", sans-serif;
         margin: 30px 0;
+        @media #{$tablet} {
+        }
       }
       .hourly-estimate {
         font-size: 2rem;
         font-family: "Roboto", sans-serif;
-        width: 550px;
+
         margin-left: 20px;
+        @media #{$tablet} {
+          margin-left: auto;
+        }
       }
       .mo-and-me-contact {
         font-size: 4rem;
         font-family: "Courgette", cursive;
         color: $Tiffany;
+
         margin: 30px 0 10px 20px;
       }
       .location {
         font-size: 3rem;
         font-family: "Roboto", sans-serif;
+
         margin: 30px 0 0 20px;
       }
       .contact-number {
-        font-size: 3rem;
+        font-size: 3.5rem;
+
         font-family: "Roboto", sans-serif;
         margin: 30px 0 50px 20px;
       }
       .follow-us {
         font-size: 3rem;
+
         font-family: "Roboto", sans-serif;
       }
       .facebook-container {
         display: flex;
         flex-direction: row;
         margin: 25px 0 0 35px;
+        @media #{$tablet} {
+          justify-content: center;
+          margin: 30px 0 0 0;
+        }
         .facebook-username {
           font-size: 2.5rem;
           font-family: "Roboto", sans-serif;
@@ -61,6 +83,10 @@
         display: flex;
         flex-direction: row;
         margin: 30px 0 0 35px;
+        @media #{$tablet} {
+          justify-content: center;
+          margin: 30px 0 0 0;
+        }
         .instagram-username {
           font-size: 2.5rem;
           font-family: "Roboto", sans-serif;
@@ -70,6 +96,9 @@
     }
     .contact-form-container {
       margin: 50px 250px 208px 0;
+      @media #{$tablet} {
+        margin: 50px 0 140px 0;
+      }
       .contact-form {
         display: flex;
         flex-direction: column;
@@ -80,6 +109,9 @@
           font-size: 2rem;
           font-family: "Roboto", sans-serif;
           border-radius: 5px;
+          @media #{$tablet} {
+            width: 450px;
+          }
         }
         label {
           font-size: 2rem;
@@ -92,21 +124,27 @@
           border-radius: 5px;
           font-size: 2rem;
           font-family: "Roboto", sans-serif;
+          @media #{$tablet} {
+            width: 450px;
+          }
         }
-        #submit-btn {
-          width: 270px;
-          height: 50px;
-          margin-top: 30px;
-          border-radius: 25px;
-          align-self: center;
-          background-color: $Mega-Black;
-          color: $Super-White;
-          font-family: "Roboto", sans-serif;
-          font-size: 2rem;
-          border: 0;
-          &:hover {
-            background-color: $Tiffany;
-            color: $Mega-Black;
+        li {
+          display: flex;
+          justify-content: center;
+          #submit-btn {
+            width: 270px;
+            height: 50px;
+            margin-top: 30px;
+            border-radius: 25px;
+            background-color: $Mega-Black;
+            color: $Super-White;
+            font-family: "Roboto", sans-serif;
+            font-size: 2rem;
+            border: 0;
+            &:hover {
+              background-color: $Tiffany;
+              color: $Mega-Black;
+            }
           }
         }
       }
