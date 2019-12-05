@@ -14,6 +14,7 @@ const AboutUs = () => {
         <img className="who-we-are-img" src={MoandMe} alt="moandme" />
         <div className="who-we-are-inner-container">
           <h2 className="who-we-are">Who We Are</h2>
+          <img className="who-we-are-img2" src={MoandMe} alt="moandme" />
           <p className="who-we-are-p">
             Mother and daughter team! I am the one that comes in and has the
             plan of attack and sets the routine and new patterns for you. Morgan
@@ -26,6 +27,7 @@ const AboutUs = () => {
       <div className="jamie-container">
         <div className="jamie-inner-container">
           <h2 className="jamie">Jamie</h2>
+          <img className="jamie-img2" src={Jamie} alt="jamie-img" />
           <p className="jamie-p">
             I started this business in Santa Clarita, CA in March 2018 after
             hearing my whole life, “You’re so good at organizing you should
@@ -42,6 +44,7 @@ const AboutUs = () => {
         <img className="morgan-img" src={Morgan} alt="morgan-img" />
         <div className="morgan-inner-container">
           <h2 className="morgan">Morgan</h2>
+          <img className="morgan-img2" src={Morgan} alt="morgan-img" />
           <p className="morgan-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
