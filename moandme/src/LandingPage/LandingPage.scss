@@ -39,6 +39,8 @@ a {
       flex-direction: column;
       align-items: center;
       font-size: 3rem;
+      margin-top: 0px;
+      padding: 0px 0 15px 0;
     }
   }
   .link {
@@ -422,9 +424,8 @@ a {
       }
       @media #{$tablet-small} {
         margin: 10px 0 10px 0;
-
         text-align: center;
-        padding-top: 20px;
+        padding-top: 10px;
       }
     }
   }
@@ -433,16 +434,24 @@ a {
     font-size: 2rem;
     text-align: center;
     margin-top: 10px;
+    @media #{$mobile} {
+      font-size: 1.5rem;
+    }
   }
   .Creator {
     margin-top: 90px;
     font-size: 1.9rem;
     font-family: "Roboto", sans-serif;
+    @media #{$mobile} {
+      font-size: 1.5rem;
+      margin-top: 40px;
+    }
     .Alexander {
       text-align: center;
       .portfolio {
         text-decoration: none;
         margin: 0 20px 0 10px;
+        text-decoration: underline;
       }
     }
   }
