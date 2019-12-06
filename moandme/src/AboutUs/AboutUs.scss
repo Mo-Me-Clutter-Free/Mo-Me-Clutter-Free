@@ -18,8 +18,12 @@
       flex-direction: column;
     }
     .MoandMeLogo {
-      width: 80%;
-      margin-bottom: 30px;
+      display: none;
+      @media #{$tablet} {
+        display: flex;
+        max-width: 50%;
+        margin-bottom: 30px;
+      }
     }
     .who-we-are-img {
       width: 20%;
