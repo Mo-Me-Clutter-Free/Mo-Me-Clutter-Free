@@ -4,6 +4,7 @@ import Footer from "../LandingPage/Footer";
 import MoandMe from "../imgs/MoandMe.png";
 import Jamie from "../imgs/Jamie.png";
 import Morgan from "../imgs/Morgan.png";
+import momeLogo from "../imgs/momeLogo.png";
 
 const AboutUs = () => {
   return (
@@ -11,6 +12,7 @@ const AboutUs = () => {
       <Nav />
       <h1 className="mo-and-me">Meet Mo & Me</h1>
       <div className="who-we-are-container">
+        <img className="moandmeLogo" src={momeLogo} alt="moandme" />
         <img className="who-we-are-img" src={MoandMe} alt="moandme" />
         <div className="who-we-are-inner-container">
           <h2 className="who-we-are">Who We Are</h2>
