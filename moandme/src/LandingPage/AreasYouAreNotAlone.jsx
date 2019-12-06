@@ -3,7 +3,10 @@ import Clutter from "../imgs/Clutter.jfif";
 const AreasYouAreNotAlone = () => {
   return (
     <section className="areas-container">
-      <h1 className="areas-header"> Areas We Can Help You With</h1>
+      <h1 className="areas-header">
+        {" "}
+        Areas We <span className="c">C</span>an Help You With
+      </h1>
       <div className="area-btns">
         <button className="btn-home">Home</button>
         <button className="btn-staging">Staging</button>

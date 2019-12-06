@@ -10,7 +10,8 @@ const CTA = () => {
               Don't Agonize, <br /> Organize!
             </h2>
             <h2>
-              Call Mo & Me <br /> Clutter Free!
+              <span className="c">C</span>all Mo & Me <br />{" "}
+              <span className="c">C</span>lutter Free!
             </h2>
             <h4>
               Let us help you, <br /> hit the clutter reset button!
