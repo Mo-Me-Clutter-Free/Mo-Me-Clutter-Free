@@ -6,7 +6,9 @@ import Testimonials from "../imgs/Testimonials.png";
 const WhyChooseUs = () => {
   return (
     <div className="why-choose-us-container">
-      <h1 className="why-choose-us-header">Why Choose Us?</h1>
+      <h1 className="why-choose-us-header">
+        Why <span className="c">C</span>hoose Us?
+      </h1>
       <div className="containers">
         <div className="choose-us-container-1">
           <img className="shelf-img" src={Shelf} alt="Shelf Img" />
