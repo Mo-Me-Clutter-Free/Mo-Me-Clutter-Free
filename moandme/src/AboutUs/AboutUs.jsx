@@ -4,8 +4,7 @@ import Footer from "../LandingPage/Footer";
 import MoandMe from "../imgs/MoandMe.png";
 import Jamie from "../imgs/Jamie.png";
 import Morgan from "../imgs/Morgan.png";
-import momeLogo from "../imgs/momeLogo.png";
-
+import momeLogo from "../imgs/Carousels/momeLogo.png";
 const AboutUs = () => {
   return (
     <div className="meet-container">
