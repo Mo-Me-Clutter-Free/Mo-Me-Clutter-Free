@@ -186,6 +186,7 @@ a {
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
         border: 0;
+        background-color: $Super-White;
         &:hover {
           background-color: $Mega-Black;
           color: $Tiffany;
@@ -364,11 +365,13 @@ a {
       .many-others-list {
         font-size: 2.5rem;
         line-height: 1.4;
+        margin-left: 30px;
         font-family: "Roboto", sans-serif;
+        list-style: disc;
         @media #{$mobile} {
           font-size: 2rem;
           width: 100%;
-          margin-left: 15px;
+          margin-left: 20px;
         }
       }
       .call-header {
@@ -480,6 +483,7 @@ a {
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
         margin: 10px 0 0 50px;
+        list-style: disc;
       }
     }
     .choose-us-container-3 {
@@ -575,6 +579,9 @@ a {
         text-decoration: none;
         margin: 0 20px 0 10px;
         text-decoration: underline;
+        &:hover {
+          color: $Super-White;
+        }
       }
     }
   }

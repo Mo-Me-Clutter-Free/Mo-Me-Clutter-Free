@@ -21,7 +21,7 @@ const AreasYouAreNotAlone = () => {
           <div className="many-others">
             <img className="clutter-img2" src={Clutter} alt="Clutter" />
             <h2 className="many-others-header">Are you like so many others?</h2>
-            <ol>
+            <ul>
               <li className="many-others-list">Overwhelmed with clutter?</li>
               <li className="many-others-list">Drowning in paperwork?</li>
               <li className="many-others-list">
@@ -32,7 +32,7 @@ const AreasYouAreNotAlone = () => {
               </li>
               <li className="many-others-list">Can’t park in the garage? </li>
               <li className="many-others-list">Selling your home?</li>
-            </ol>
+            </ul>
             <h2 className="call-header">
               If so, it's time for you to call Mo & Me Clutter Free!
             </h2>

@@ -3,6 +3,7 @@ import Nav from "../LandingPage/Navigation/Nav";
 import Footer from "../LandingPage/Footer";
 import facebook from "../imgs/facebook.png";
 import instagram from "../imgs/instagram1.png";
+
 const ContactUs = () => {
   return (
     <div className="contact-us-container">
@@ -16,11 +17,18 @@ const ContactUs = () => {
           </p>
           <h2 className="mo-and-me-contact"> Mo & Me Clutter Free</h2>
           <p className="location"> Santa Clarita, California, United States</p>
-          <h3 className="contact-number">970.218.5691</h3>
+          <a className="contact-number" href="tel:970-218-5691">
+            970.218.5691
+          </a>
           <h3 className="follow-us"> Follow us on social media!</h3>
           <div className="facebook-container">
             <img className="facebook-logo" src={facebook} alt="facebook logo" />
-            <h2 className="facebook-username">@moandmeclutterfree</h2>
+            <a
+              className="facebook-username"
+              href="https://www.facebook.com/moandmeclutterfree/"
+            >
+              @moandmeclutterfree
+            </a>
           </div>
           <div className="instagram-container">
             <img
@@ -28,7 +36,12 @@ const ContactUs = () => {
               src={instagram}
               alt="instagram logo"
             />
-            <h2 className="instagram-username">@moandmeclutterfree</h2>
+            <a
+              className="instagram-username"
+              href="https://www.instagram.com/moandmeclutterfree/"
+            >
+              @moandmeclutterfree
+            </a>
           </div>
         </div>
 
