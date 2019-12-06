@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="Nav">
       <div className="Logo">
         <Link to="/">
-          Mo<span>&thinsp;</span>&<span>&thinsp;</span>Me
+          Mo<span>&#8200;</span>&<span>&#8200;</span>Me
           <span className="nav-clutter-free">
             <br />
             <span className="c">C</span>lutter Free
