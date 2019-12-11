@@ -2,6 +2,7 @@ import React from "react";
 import Shelf from "../imgs/Shelf.png";
 import Quality from "../imgs/Quality.png";
 import Testimonials from "../imgs/Testimonials.png";
+import Button from "react-bootstrap/Button";
 
 const WhyChooseUs = () => {
   return (
@@ -42,7 +43,12 @@ const WhyChooseUs = () => {
           <p className="container-3-p">
             Don’t take our word for it, hear from some of our clients!
           </p>
-          <button className="container-3-button">Click Here!</button>
+          <Button
+            className="container-3-button"
+            href="https://www.yelp.com/biz/mo-and-me-clutter-free-santa-clarita"
+          >
+            Click Here!
+          </Button>
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import Clutter from "../imgs/Clutter.jfif";
+import Button from "react-bootstrap/Button";
+
 const AreasYouAreNotAlone = () => {
   return (
     <section className="areas-container">
@@ -8,12 +10,24 @@ const AreasYouAreNotAlone = () => {
         Areas We <span className="c">C</span>an Help You With
       </h1>
       <div className="area-btns">
-        <button className="btn-home">Home</button>
-        <button className="btn-staging">Staging</button>
-        <button className="btn-garage">Garage</button>
-        <button className="btn-storage">Storage</button>
-        <button className="btn-workplace">Workplace</button>
-        <button className="btn-organization">Organization</button>
+        <Button className="btn-home" href="/OurServices">
+          Home
+        </Button>
+        <Button className="btn-staging" href="/OurServices">
+          Staging
+        </Button>
+        <Button className="btn-garage" href="/OurServices">
+          Garage
+        </Button>
+        <Button className="btn-storage" href="/OurServices">
+          Storage
+        </Button>
+        <Button className="btn-workplace" href="/OurServices">
+          Workplace
+        </Button>
+        <Button className="btn-organization" href="/OurServices">
+          Organization
+        </Button>
       </div>
       <div className="alone-container">
         <div className="line"></div>
