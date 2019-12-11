@@ -181,11 +181,13 @@ a {
         }
       }
 
-      button {
+      .ctabtn {
+        display: inline-block;
         width: 90%;
         height: 50px;
         border-radius: 25px;
         margin-top: 5%;
+        padding-top: 4%;
         font-family: "Roboto", sans-serif;
         font-size: 2rem;
         border: 0;

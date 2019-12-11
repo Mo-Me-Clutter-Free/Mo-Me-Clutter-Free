@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "react-bootstrap/Button";
 const CTA = () => {
   return (
     <div>
@@ -17,7 +17,10 @@ const CTA = () => {
             <h4>
               Let us help you, <br /> hit the clutter reset button!
             </h4>
-            <button> Contact Us</button>
+            <Button className="ctabtn" href="/ContactUs">
+              {" "}
+              Contact Us
+            </Button>
           </div>
         </div>
       </section>
