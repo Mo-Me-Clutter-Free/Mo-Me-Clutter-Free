@@ -7,7 +7,7 @@ import KitchenStaging from "../imgs/Carousels/KitchenStaging.jpg";
 import OfficeStaging from "../imgs/Carousels/OfficeStaging.jpg";
 import BathroomStaging from "../imgs/Carousels/BathroomStaging.jpg";
 
-export default class DemoCarousel extends Component {
+export default class StagingCarousel extends Component {
   render() {
     return (
       <Carousel className="carousel">
