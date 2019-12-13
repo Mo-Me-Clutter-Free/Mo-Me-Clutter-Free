@@ -3,8 +3,10 @@ import Nav from "../LandingPage/Navigation/Nav";
 import Footer from "../LandingPage/Footer";
 import MoandMe from "../imgs/MoandMe.png";
 import Jamie from "../imgs/Jamie.png";
-import Morgan from "../imgs/Morgan.png";
+// import Morgan from "../imgs/Morgan.png";
 import momeLogo from "../imgs/Carousels/momeLogo.png";
+import Adam from "../imgs/Adam.jpg";
+import Paddie from "../imgs/Paddie.jpg";
 const AboutUs = () => {
   return (
     <div className="meet-container">
@@ -17,11 +19,11 @@ const AboutUs = () => {
           <h2 className="who-we-are">Who We Are</h2>
           <img className="who-we-are-img2" src={MoandMe} alt="moandme" />
           <p className="who-we-are-p">
-            Mother and daughter team! I am the one that comes in and has the
-            plan of attack and sets the routine and new patterns for you. Morgan
-            is meticulous at details and fine tuning what I have set in place.
-            Together we have fun, get a lot done and make new friends along the
-            way.
+            Mother and daughter team! Jamie is the one that comes in and has a
+            plan of attack, sets the routine, and implements new patterns for
+            you. Morgan is meticulous at details and fine tuning what I have set
+            in place. Together we have fun, get a lot done and make new friends
+            along the way!
           </p>
         </div>
       </div>
@@ -42,16 +44,16 @@ const AboutUs = () => {
         <img className="jamie-img" src={Jamie} alt="jamie-img" />
       </div>
       <div className="morgan-container">
-        <img className="morgan-img" src={Morgan} alt="morgan-img" />
+        <h2 className="morgan">Meet the Team!</h2>
+        <p className="morgan-p">
+          We have a hard working team made up of myself the owner, Jamie. My
+          daughter, Morgan, and our incredible employees Adam and Paddie. They
+          bring along muscle, another set of eyes, and hard work to create this
+          wonderful group.
+        </p>
         <div className="morgan-inner-container">
-          <h2 className="morgan">Morgan</h2>
-          <img className="morgan-img2" src={Morgan} alt="morgan-img" />
-          <p className="morgan-p">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
-            pulvinar elementum integer enim neque volutpat ac. Ultrices sagittis
-            orci a scelerisque purus semper.
-          </p>
+          <img className="morgan-img2" src={Adam} alt="morgan-img" />
+          <img className="morgan-img2" src={Paddie} alt="morgan-img" />
         </div>
       </div>
       <Footer />

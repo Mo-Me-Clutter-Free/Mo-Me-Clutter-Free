@@ -4,12 +4,21 @@
   margin: 50px 0;
   height: 75px;
   text-align: center;
+  @media #{$tablet} {
+    font-size: 2.9rem;
+  }
+  @media #{$tablet-small} {
+    font-size: 2rem;
+  }
+  @media #{$mobile} {
+    font-size: 1.7rem;
+  }
 }
 
 .decluttering-header {
   font-size: 4rem;
   font-family: "Courgette", cursive;
-  margin: 50px 0;
+  margin: 50px 0 25px 0;
   height: 80px;
   text-align: center;
   @media #{$tablet} {
@@ -19,16 +28,16 @@
     font-size: 2rem;
   }
   @media #{$mobile} {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 .carousel {
-  width: 50%;
+  width: 40%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 1100px;
+  max-height: 1150px;
   border-radius: 10px;
   @media #{$tablet} {
     width: 70%;
@@ -47,5 +56,31 @@
       background-color: rgba(0, 0, 0, 0.4);
       font-family: "Roboto", sans-serif;
     }
+  }
+}
+
+.beforeafter {
+  font-size: 2.8rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: $Tiffany;
+  @media #{$tablet-small} {
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+}
+
+.beforeafterp {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 0;
+  @media #{$tablet} {
+    width: 75%;
+  }
+  @media #{$tablet-small} {
+    font-size: 2rem;
   }
 }
