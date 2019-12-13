@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://moandme.netlify.com/* http://www.moandmeclutterfree.com/:splat 301!
