@@ -14,11 +14,12 @@ const WhyChooseUs = () => {
         <div className="choose-us-container-1">
           <img className="shelf-img" src={Shelf} alt="Shelf Img" />
           <p className="container-1-p">
-            Mo & Me Clutter Free provides top-of-the line organizing expertise
-            at an EXTREMELY COMPETITIVE price! We will provide you with a very
-            positive and life-changing experience. With Mo & Me, you will
-            receive customized organization designed to fit your space and
-            needs.{" "}
+            Our clients range from busy parents, business professionals,
+            elderly, students, and everyone in between. Have you been waiting to
+            take the steps to have someone finish your todo list you've been
+            procrastinating on? If so we are here for that! Don't feel alone, 7
+            out of 10 people struggle with finding time, energy, and the skills
+            to reorganize their home.
           </p>
         </div>
         <div className="choose-us-container-2">
