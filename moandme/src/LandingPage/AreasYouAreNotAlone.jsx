@@ -10,24 +10,12 @@ const AreasYouAreNotAlone = () => {
         Areas We <span className="c">C</span>an Help You With
       </h1>
       <div className="area-btns">
-        <Button className="btn-home" href="/OurServices">
-          Home
-        </Button>
-        <Button className="btn-staging" href="/OurServices">
-          Staging
-        </Button>
-        <Button className="btn-garage" href="/OurServices">
-          Garage
-        </Button>
-        <Button className="btn-storage" href="/OurServices">
-          Storage
-        </Button>
-        <Button className="btn-workplace" href="/OurServices">
-          Workplace
-        </Button>
-        <Button className="btn-organization" href="/OurServices">
-          Organization
-        </Button>
+        <Button className="btn-home">Home</Button>
+        <Button className="btn-staging">Staging</Button>
+        <Button className="btn-garage">Garage</Button>
+        <Button className="btn-storage">Storage</Button>
+        <Button className="btn-workplace">Workplace</Button>
+        <Button className="btn-organization">Organization</Button>
       </div>
       <div className="alone-container">
         <div className="line"></div>
