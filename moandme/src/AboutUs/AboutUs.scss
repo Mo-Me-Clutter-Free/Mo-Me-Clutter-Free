@@ -177,8 +177,13 @@
         height: 25%;
         border-radius: 5px;
         @media #{$tablet} {
-          height: 50%;
-          width: 50%;
+          height: 65%;
+          width: 65%;
+          margin-top: 25px;
+        }
+        @media #{$mobile} {
+          height: 80%;
+          width: 80%;
           margin-top: 25px;
         }
       }
